@@ -22,4 +22,4 @@ app.use(
 
 app.listen(port, () => console.log('Server is listening, port ' + port))
 
-app.get('/getProducts', getProducts)
+app.get('/getProducts/:super/:zipCode/:productName', getProducts)

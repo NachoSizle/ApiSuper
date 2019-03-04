@@ -1,0 +1,31 @@
+{
+  "name": "apimoviespordede",
+  "version": "1.0.0",
+  "description": "Api that serve movies from html file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachoSizle/apimovies.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "NachoSizle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachoSizle/apimovies/issues"
+  },
+  "homepage": "https://github.com/NachoSizle/apimovies#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "latest",
+    "express": "^4.16.2",
+    "firebase-admin": "^6.0.0",
+    "request": "^2.88.0",
+    "youtube-search": "^1.1.3"
+  }
+}

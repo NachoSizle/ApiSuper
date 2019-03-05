@@ -43,9 +43,10 @@ const getByCPAndName = param => {
                 name: ''
               }
 
-              if (row['data-pc_id']) {
-                product.id = prop['data-pc_id']
+              if (row['attribs']['class']['data-pc_id']) {
+                product.id = row['attribs']['class']['data-pc_id']
               }
+              var properties = row['children']
               properties.map(prop => {
                 var attribsArr = prop['attribs']
                 if (attribsArr !== undefined) {
